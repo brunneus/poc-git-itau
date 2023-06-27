@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Poc.Git.Itau.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("weather-forecast")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
