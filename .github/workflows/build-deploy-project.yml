@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   workflow_call:
@@ -8,7 +8,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-project:
+  build-deploy-project:
     runs-on: ubuntu-latest
 
     steps:
